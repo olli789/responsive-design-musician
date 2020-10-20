@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musician</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+    <div class="container space">
+<header class="header-ipad-device header-iphone-device">
+    <h1>Head.</h1>
+    
+    <nav>
+        <ul type="none" >
+            <li class="invisible-iphone-links"><a href="#works">Works</a></li>
+            <li class="invisible-iphone-links"><a href="#services">Services</a></li>
+            <li class="invisible-iphone-links"><a href="#contacts">Contacts</a></li>
+        </ul>
+
+        <div class="mobile-container invisible-ipad-links visible-nav-bar-iphone" >
+        <div class="topnav">
+        <div id="myLinks">
+        <a href="#works">Works</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contacts</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+        </div>
+
+                <script>
+                function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                x.style.display = "none";} 
+                else {
+                x.style.display = "block";
+                }
+                }
+                </script>
+        </div>
+    </nav>
+
+</header>
+
+<section class="container-ipad-device container-iphone-device">
+    <h2>Musician</h2>
+    <p>Fusce vehicula dolor arcu, sit amet blandit<br>
+    dolor mollis nec. Donec viverra eleifend<br>
+    lacus, vitae ullamcor.</p>
+</section>
+</div>
+
+
+</body>
+</html>
