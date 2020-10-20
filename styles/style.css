@@ -73,52 +73,11 @@ margin-top: -1%;
 section {margin-left: 5%;}
 
 
-
-
-@media screen and (max-width: 768px) {
-
-.container-ipad-device {display: flex;
-flex-direction: column;
-text-align: center;
-align-content: center;
-margin-bottom: 15%;
-margin-left: 0;
-flex-wrap: wrap;
-height: 35%;
-
-}
-
-.header-ipad-device{display: flex;
-justify-content: space-evenly;
-margin-left: 22%;
-
-}
-
-nav {width: 300px;}
-
-body {
-background-position-x: 60%;
-background-position-y: 320px;
-}
-
-
-
-}
-
-p {width: 350px;}
-
-
-
-
-.invisible-ipad-links {visibility: hidden;}
-
-
-
-
 /* Tablet screen 
         V
 */
 
+
 @media screen and (max-width: 768px) {
 
 .container-ipad-device {display: flex;
@@ -129,27 +88,33 @@ margin-bottom: 15%;
 margin-left: 0;
 flex-wrap: wrap;
 height: 35%;
-
 }
 
-.header-ipad-device{display: flex;
+
+.header-ipad-device{
+  display: flex;
 justify-content: space-evenly;
 margin-left: 22%;
 
 }
 
-nav {width: 300px;}
+nav {
+width: 300px;
+}
 
 body {
 background-position-x: 60%;
 background-position-y: 320px;
 }
-
-.invisible-ipad-links {visibility: hidden;}
-
 }
 
-p {width: 350px;}
+p {
+width: 350px;
+}
+
+.invisible-ipad-links {
+visibility: hidden;
+}
 
 /* Phone screen 
         V
@@ -174,7 +139,6 @@ p {width: 350px;}
 
 }
     
-    
     body {background-position-x: 50%;
     background-position-y: 300px;
     background-size: 75%;}
@@ -191,8 +155,9 @@ p {width: 350px;}
 
 .visible-nav-bar-iphone {visibility: visible !important;}
 
-
 }
+
+
 /* Nav button 
         V
 */
